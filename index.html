@@ -1,0 +1,19 @@
+<html ng-app="TrafficLight">
+<head>
+    <title>TrafficLight Controller</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="libs/angular.js"></script>
+    <script type="text/javascript" src="assets/js/controller.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/main.min.js"></script> -->
+</head>
+<body>
+<div class="wrapper" ng-controller="TrafficLightCtrl">
+  <p>{{trafficlightStatus}} <span class="lightbulb {{trafficlightColor}}"></span></p>
+
+  <div ng-repeat="light in lights">
+    <button ng-click="toggleLight(light)" class="button button--{{light.color}} {{light.colorOn}}">{{light.color}}</button>
+  </div>
+
+</div>
+</body>
+</html>

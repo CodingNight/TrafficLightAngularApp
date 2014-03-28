@@ -1,0 +1,12 @@
+[
+    {
+        "color": "red",
+        "command": "ROT"
+    },  {
+        "color": "yellow",
+        "command": "GELB"
+    }, {
+        "color": "green",
+        "command": "GRUEN"
+    }
+]

@@ -1,0 +1,60 @@
+/* line 3, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, style.scss */
+body {
+  font: 1rem/1.3 Arial, Helvetica, sans-serif;
+  color: #000;
+  background: #ddd;
+}
+
+/* line 15, style.scss */
+.wrapper {
+  width: 100%;
+  max-width: 50em;
+  height: auto;
+  margin: 0 auto;
+  padding: 2em;
+  background: #fff;
+}
+
+/* line 24, style.scss */
+button, .button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #ddd;
+  border-radius: 3px;
+  border: 1px solid #b0b0b0;
+  padding: .5em 1em;
+}
+
+/* line 32, style.scss */
+.lightbulb {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background: #ddd;
+  display: inline-block;
+}
+
+/* line 40, style.scss */
+.green {
+  background: #4ca64c !important;
+}
+
+/* line 41, style.scss */
+.yellow {
+  background: #ffff4c !important;
+}
+
+/* line 42, style.scss */
+.red {
+  background: #ff4c4c !important;
+}
